@@ -1,0 +1,46 @@
+{
+  "name": "form-front-end",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "basic-tts": "^1.0.5",
+    "framer-motion": "^2.9.4",
+    "mdbreact": "^4.27.0",
+    "node-speech": "^1.0.4",
+    "react": "^16.14.0",
+    "react-checkmark": "^1.3.0",
+    "react-dom": "^16.14.0",
+    "react-full-screen": "^0.3.1",
+    "react-scripts": "3.4.3",
+    "react-speech-recognition": "^3.2.3",
+    "text-to-speech-js": "^1.1.10"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && 7za a build.zip .\\build/\\*",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@material-ui/icons": "^4.9.1"
+  }
+}

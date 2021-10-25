@@ -1,0 +1,46 @@
+.pt-4, .py-4 {
+    padding-top: 0 !important;
+}
+.footer-color{
+    background-color: #162c98;
+}
+.logo_header{
+    width: 65%;
+    padding: 20px;
+    margin: auto;
+}
+.MuiToolbar-root.MuiToolbar-regular.MuiToolbar-gutters{
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.mainBody {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.briefing{
+    text-align: justify;
+}
